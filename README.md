@@ -1,55 +1,95 @@
 # pr3_1184_GomezGarcia_Python
 
 print(" ")
+
 print("Gomez Garcia Andres Noe 1184: Practica 3")
+
 print(" ")
+
 #Se le pide al usuario su edad
+
 edad=int(input("Escriba su edad: "))
 
-#Si edad es menor o mayor a 18 imprimira un mensaje distinto en cada caso 
+#Si edad es menor o mayor a 18 imprimira un mensaje distinto en cada caso
+
 if edad<18:
+
     print("Usted no es mayor de edad")
+    
 elif edad>=18:
+
     print("Usted es mayor de edad")
+
+![image](https://github.com/user-attachments/assets/a5aaf567-aa80-468e-9c8a-9d0f5cc976d6)
+
+![image](https://github.com/user-attachments/assets/6cc8ac2e-cfb1-4474-933c-d9dc2729152d)
+
+
 
 
 print(" ")
+
 print("Gomez Garcia Andres Noe 1184: Practica 3")
+
 print(" ")
 
 #Se le pide al usuario su Calificacion
+
 califa=float(input("Escriba su calificacion: "))
 
+
 #Dependiendo de la calificacion imprimira un mensaje u otro
+
 if califa>=0 and califa<5:
+
     print("Suspendiste")
+    
 elif califa>=5 and califa<6:
+
     print("Suficiente")
 elif califa>=6 and califa<7:
+
     print("Bien")
+    
 elif califa>=7 and califa<9:
+
     print("Notable")
+    
 elif califa>=9 and califa<=10:
+
     print("Sobresaliente")
 
+![image](https://github.com/user-attachments/assets/f5b81c97-725b-4004-a093-de1b0452cb70)
+
+![image](https://github.com/user-attachments/assets/88529118-9eb1-4d04-954d-0c04a69e4fe6)
 
 print(" ")
+
 print("Gomez Garcia Andres Noe 1184: Practica 3")
+
 print(" ")
 
 #Se le pide al usuario un apellido un un nombre
+
 nombre=str(input("Ingrese un nombre: "))
+
 apellido=str(input("Ingrese un apellido: "))
 
 #Dependiendo si el usuario uso el nombre y apelllido corrrectos imprimira un mensaje u otro
+
 if nombre=="Daniel" and apellido=="Ramos":
+
     print(nombre, apellido)
+    
 elif nombre=="Daniel" and apellido != "Ramos" :
+
     print("Apellido incorrecto ")
 
 elif nombre != "Daniel" and apellido == "Ramos" :
+
     print("Usuario desconocido")
 else:
+
     print("Error...")
 
 
