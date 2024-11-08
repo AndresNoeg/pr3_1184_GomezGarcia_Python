@@ -301,13 +301,13 @@ print(" ")
 
 # Parte hacia arriba
 
-for i in range(1, 6):  # De 1 a 5
+for i in range(1, 6):  
 
     print('*' * i)
 
 # Parte hacia abajo
 
-for i in range(4, 0, -1):  # De 4 a 1
+for i in range(4, 0, -1): 
     print('*' * i)
 
 ![image](https://github.com/user-attachments/assets/7db7e6c0-cc9b-4642-8f5f-a6e129113287)
